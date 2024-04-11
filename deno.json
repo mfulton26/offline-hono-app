@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run -A server.ts"
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx"
+  },
+  "importMap": "./importMap.json"
+}

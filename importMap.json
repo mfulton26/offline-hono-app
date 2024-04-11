@@ -1,0 +1,15 @@
+{
+  "imports": {
+    "esbuild-deno-loader": "jsr:@luca/esbuild-deno-loader@^0.10.3",
+    "esbuild": "npm:esbuild@^0.20.2",
+    "hono": "https://deno.land/x/hono@v4.2.2/mod.ts",
+    "hono/html": "https://deno.land/x/hono@v4.2.2/helper/html/index.ts",
+    "hono/logger": "https://deno.land/x/hono@v4.2.2/middleware/logger/index.ts",
+    "hono/jsx-renderer": "https://deno.land/x/hono@v4.2.2/middleware/jsx-renderer/index.ts",
+    "hono/jsx/jsx-runtime": "https://deno.land/x/hono@v4.2.2/jsx/jsx-runtime.ts",
+    "hono/serve-static": "https://deno.land/x/hono@v4.2.2/adapter/deno/serve-static.ts",
+    "hono/streaming": "https://deno.land/x/hono@v4.2.2/helper/streaming/index.ts",
+    "idb": "npm:idb@^8.0.0",
+    "zod": "npm:zod@^3.22.4"
+  }
+}
